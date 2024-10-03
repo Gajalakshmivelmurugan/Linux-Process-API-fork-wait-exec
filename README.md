@@ -102,7 +102,6 @@ printf("Running ps with execlp. Now with path specified\n");
         exit(0);}
 
 
-
 ## OUTPUT
 
 ![Screenshot 2024-10-03 153809](https://github.com/user-attachments/assets/f19b072b-0cc0-4c69-9e39-077de3de1e10)
