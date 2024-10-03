@@ -53,7 +53,7 @@ int main(void)
 
 ## C Program to create new process using Linux API system calls fork() and exit()
 
-
+```
 #include <stdio.h>
 #include<stdlib.h>
 int main()
@@ -69,7 +69,7 @@ sleep(100);
 exit(0);} 
 }
 
-
+```
 ## OUTPUT
 
 
@@ -77,7 +77,7 @@ exit(0);}
 
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
-
+```
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <sys/types.h>
@@ -100,7 +100,7 @@ printf("Running ps with execlp. Now with path specified\n");
                 puts("child did not exit successfully\n");
         printf("Done.\n");
         exit(0);}
-
+```
 
 ## OUTPUT
 
